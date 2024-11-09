@@ -19,7 +19,7 @@ public class RestApiInvoke {
 		Gson gson = new Gson();
 		String jsonRequest = gson.toJson(transcript);
 		System.out.println(jsonRequest);
-		
+		//creating http request
 		HttpRequest request;
 		try {
 			request = HttpRequest.newBuilder()
